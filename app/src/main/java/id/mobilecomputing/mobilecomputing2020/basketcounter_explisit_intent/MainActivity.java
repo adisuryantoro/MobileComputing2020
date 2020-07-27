@@ -1,4 +1,4 @@
-package id.mobilecomputing.mobilecomputing2020;
+package id.mobilecomputing.mobilecomputing2020.basketcounter_explisit_intent;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+
+import id.mobilecomputing.mobilecomputing2020.R;
 
 public class MainActivity extends AppCompatActivity {
 

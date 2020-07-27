@@ -1,12 +1,12 @@
 package id.mobilecomputing.mobilecomputing2020;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
-import id.mobilecomputing.mobilecomputing2020.basketcounter_explisit_intent.MainActivity;
+import androidx.appcompat.app.AppCompatActivity;
+
+import id.mobilecomputing.mobilecomputing2020.implisit_intent.ImplisitIntentActivity;
 
 public class SplashScreenActivity extends AppCompatActivity {
 
@@ -18,7 +18,7 @@ public class SplashScreenActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                startActivity(new Intent(SplashScreenActivity.this, MainActivity.class));
+                startActivity(new Intent(SplashScreenActivity.this, ImplisitIntentActivity.class));
                 finish();
             }
         }, 2000);

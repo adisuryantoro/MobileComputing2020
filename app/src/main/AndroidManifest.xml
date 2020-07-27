@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SplashScreenActivity"
+        <activity android:name=".implisit_intent.ImplisitIntentActivity"
+            android:label="@string/title_activity_implisit_intent"></activity>
+        <activity
+            android:name=".SplashScreenActivity"
             android:theme="@style/ThemeSplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,8 +21,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".basketcounter_explisit_intent.CounterActivity" />
-        <activity android:name=".basketcounter_explisit_intent.MainActivity">
-        </activity>
+        <activity android:name=".basketcounter_explisit_intent.MainActivity"></activity>
     </application>
 
 </manifest>

@@ -2,4 +2,6 @@
     <string name="app_name">Mobile Computing 2020</string>
     <string name="string_tim_a">Tim A</string>
     <string name="string_tim_b">Tim B</string>
+    <string name="string_dial_phone">Dial Phone</string>
+    <string name="title_activity_implisit_intent">Implisit Intent</string>
 </resources>

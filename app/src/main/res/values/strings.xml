@@ -4,4 +4,11 @@
     <string name="string_tim_b">Tim B</string>
     <string name="string_dial_phone">Dial Phone</string>
     <string name="title_activity_implisit_intent">Implisit Intent</string>
+    <string name="string_email">Email</string>
+    <string name="string_password">Password</string>
+    <string name="string_sign_in">Sign In</string>
+    <string name="title_activity_simple_login">Simple Login</string>
+    <string name="error_invalid_password">Email dan Password tidak tepat</string>
+    <string name="error_field_required">Silahkan masukkan email yang benar</string>
+    <string name="error_invalid_email">Email dan Password tidak tepat</string>
 </resources>

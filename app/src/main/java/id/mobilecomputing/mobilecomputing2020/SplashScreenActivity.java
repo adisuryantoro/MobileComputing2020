@@ -6,7 +6,7 @@ import android.os.Handler;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import id.mobilecomputing.mobilecomputing2020.implisit_intent.ImplisitIntentActivity;
+import id.mobilecomputing.mobilecomputing2020.auth.SimpleLoginActivity;
 
 public class SplashScreenActivity extends AppCompatActivity {
 
@@ -18,7 +18,7 @@ public class SplashScreenActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                startActivity(new Intent(SplashScreenActivity.this, ImplisitIntentActivity.class));
+                startActivity(new Intent(SplashScreenActivity.this, SimpleLoginActivity.class));
                 finish();
             }
         }, 2000);

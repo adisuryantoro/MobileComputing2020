@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="dimen_two_hundred">200dp</dimen>
+    <dimen name="dimen_one_hundred_eighty">180dp</dimen>
     <dimen name="margin_sixteen">16dp</dimen>
     <dimen name="margin_twenty_four">24dp</dimen>
     <dimen name="margin_forty_four">44dp</dimen>

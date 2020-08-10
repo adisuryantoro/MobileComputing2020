@@ -15,37 +15,52 @@
         <EditText
             android:id="@+id/edt_name_tim_a"
             android:layout_width="@dimen/dimen_two_hundred"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
             android:layout_height="wrap_content"
+            android:hint="@string/string_tim_a"
             android:textColor="#000000"
-            app:layout_constraintTop_toTopOf="parent"
-            android:hint="@string/string_tim_a"/>
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
 
         <EditText
             android:id="@+id/edt_name_tim_b"
             android:layout_width="@dimen/dimen_two_hundred"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
             android:layout_height="wrap_content"
-            android:textColor="#000000"
-            app:layout_constraintTop_toBottomOf="@id/edt_name_tim_a"
             android:layout_marginTop="16dp"
-            android:hint="@string/string_tim_b"/>
+            android:hint="@string/string_tim_b"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/edt_name_tim_a" />
 
 
         <Button
             android:id="@+id/btn_input_name_tim"
             android:layout_width="@dimen/dimen_two_hundred"
             android:layout_height="wrap_content"
-            app:layout_constraintTop_toBottomOf="@id/edt_name_tim_b"
             android:layout_marginTop="24dp"
-            android:text="INPUT"
             android:onClick="inputName"
+            android:text="INPUT"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"/>
+            app:layout_constraintTop_toBottomOf="@id/edt_name_tim_b" />
 
+
+        <Button
+            android:id="@+id/btn_log_out"
+            android:layout_width="@dimen/dimen_two_hundred"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@color/colorPrimary"
+            android:onClick="inputName"
+            android:text="Log Out"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/text_size_eighteen"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_input_name_tim" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

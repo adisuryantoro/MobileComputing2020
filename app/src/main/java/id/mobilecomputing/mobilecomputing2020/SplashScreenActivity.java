@@ -6,7 +6,7 @@ import android.os.Handler;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import id.mobilecomputing.mobilecomputing2020.auth.SimpleLoginActivity;
+import id.mobilecomputing.mobilecomputing2020.auth_firebase.LoginFirebaseActivity;
 
 public class SplashScreenActivity extends AppCompatActivity {
 
@@ -18,7 +18,7 @@ public class SplashScreenActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                startActivity(new Intent(SplashScreenActivity.this, SimpleLoginActivity.class));
+                startActivity(new Intent(SplashScreenActivity.this, LoginFirebaseActivity.class));
                 finish();
             }
         }, 2000);

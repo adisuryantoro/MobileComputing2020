@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "886302545944",
+    "firebase_url": "https://authmobilecomputing2020.firebaseio.com",
+    "project_id": "authmobilecomputing2020",
+    "storage_bucket": "authmobilecomputing2020.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:886302545944:android:92248f25e334ed14300b6d",
+        "android_client_info": {
+          "package_name": "id.mobilecomputing.mobilecomputing2020"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "886302545944-g3uimt7hgk2hvhtlfe723hs4q7bvli7u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.mobilecomputing.mobilecomputing2020",
+            "certificate_hash": "3e7eafd404fbaee7235ac9427737a0713d6f6974"
+          }
+        },
+        {
+          "client_id": "886302545944-mr69d8aoq90vtn7ghv3gkfv1u41p61bb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9jJ6vpxgV1DUHmny79FIE6momwURgr4Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "886302545944-mr69d8aoq90vtn7ghv3gkfv1u41p61bb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

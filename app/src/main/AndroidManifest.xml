@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="id.mobilecomputing.mobilecomputing2020">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,8 +11,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".auth.SimpleLoginActivity"
-            android:label="@string/title_activity_simple_login"></activity>
+        <activity
+            android:name=".auth_firebase.LoginFirebaseActivity"
+            android:label="@string/title_activity_firebase_login" />
+        <activity
+            android:name=".auth.SimpleLoginActivity"
+            android:label="@string/title_activity_simple_login" />
         <activity
             android:name=".implisit_intent.ImplisitIntentActivity"
             android:label="@string/title_activity_implisit_intent" />
@@ -24,7 +30,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".basketcounter_explisit_intent.CounterActivity" />
-        <activity android:name=".basketcounter_explisit_intent.MainActivity" />
+        <activity
+            android:name=".basketcounter_explisit_intent.MainActivity"
+            android:label="@string/title_activity_main" />
     </application>
 
 </manifest>

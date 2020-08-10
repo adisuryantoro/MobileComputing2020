@@ -13,4 +13,6 @@
     <string name="error_invalid_email">Email dan Password tidak tepat</string>
     <string name="client_web_id">886302545944-mr69d8aoq90vtn7ghv3gkfv1u41p61bb.apps.googleusercontent.com</string>
     <string name="key_client_web_id">npgpHgxgwF0srIGVaVJgI00u</string>
+    <string name="title_activity_firebase_login">Google Firebase Login</string>
+    <string name="title_activity_main">Basketball Counter</string>
 </resources>

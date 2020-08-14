@@ -6,7 +6,7 @@ import android.os.Handler;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import id.mobilecomputing.mobilecomputing2020.auth_firebase.LoginFirebaseActivity;
+import id.mobilecomputing.mobilecomputing2020.recyclerview_connect_api.MoviesPopularActivity;
 
 public class SplashScreenActivity extends AppCompatActivity {
 
@@ -18,7 +18,7 @@ public class SplashScreenActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                startActivity(new Intent(SplashScreenActivity.this, LoginFirebaseActivity.class));
+                startActivity(new Intent(SplashScreenActivity.this, MoviesPopularActivity.class));
                 finish();
             }
         }, 2000);
